@@ -7,16 +7,6 @@ export default function dolar({data}) {
       description="agregue descripción"
     >
       <h1>Dolar</h1>
-
-      {
-        data.serie.map(({ fecha, valor }) => (
-          <div key={fecha}>
-            <h3>
-              <a>{fecha} - {valor}</a>
-              </h3>
-          </div>
-        ))
-      }
     </Navbar>
   )
 }
