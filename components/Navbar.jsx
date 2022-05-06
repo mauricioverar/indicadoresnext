@@ -4,9 +4,11 @@ import Link from 'next/link'
 // import styles from '../styles/Navbar.module.css'
 // import utilStyles from '../styles/utils.module.css'
 
-// const name = 'zen'
+// let flag = 0
 
 export default function Navbar({ children, title, description, home }) {
+  // console.log('nav flag= ', flag) //
+  // flag = 1
   // props
   // console.log(home)
   return (

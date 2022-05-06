@@ -5,6 +5,8 @@ export default function euro() {
     <Navbar
       title="Euro | Indicadores"
       description="agregue descripción"
-    ></Navbar>
+    >
+      <h1>Euro</h1>
+    </Navbar>
   )
 }

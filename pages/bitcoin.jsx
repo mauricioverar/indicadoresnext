@@ -26,6 +26,14 @@ export async function getStaticProps() { // getStaticProps = obtención de datos
     const res = await fetch('https://mindicador.cl/api/bitcoin')
     const data = await res.json()
     // console.log(data);
+
+    // return (
+    //   <div className="container mt-5 text-center">
+    //     <div className="spinner-border text-primary" role="status">
+    //       <span className="sr-only">Loading...</span>
+    //     </div>
+    //   </div>
+    // )
     
     return { // envía props data
       props: {
